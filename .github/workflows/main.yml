@@ -25,5 +25,5 @@ jobs:
       # Use node.js action
       - name: use Node.js
         uses: actions/setup-node@v1
-      - run: npm install react
+      - run: npm install
       - run: npm run build
